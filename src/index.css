@@ -28,8 +28,11 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a,
+.btn {
   text-transform: capitalize;
+  letter-spacing: 1.5px;
 }
 
 h1 {
@@ -57,7 +60,6 @@ h6 {
 }
 
 a {
-  text-transform: capitalize;
   text-decoration: none;
 }
 
@@ -68,7 +70,6 @@ a {
 .btn {
   padding: 0.25rem 0.75rem;
   font-size: inherit;
-  text-transform: capitalize;
   border: none;
   border-radius: 5px;
 }
