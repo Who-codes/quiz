@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
-    <div className="error">
-      <h2>Nothing Here !</h2>
+    <section className="extra">
+      <h2 className="extra-title">Nothing Here !</h2>
       <Link to={"/"}>
         <button className="btn primary-btn">back home</button>
       </Link>
-    </div>
+    </section>
   );
 };
 

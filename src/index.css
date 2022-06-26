@@ -127,12 +127,25 @@ main {
   gap: 1rem;
 }
 
-.error {
-  width: fit-content;
+.extra {
   text-align: center;
-  margin: 4rem auto;
+  margin: 2rem 0;
 }
 
-.error .btn {
-  margin: 2rem 0;
+.extra-title {
+  margin: 1rem 0;
+}
+
+.extra .btn {
+  margin-bottom: 2rem;
+}
+
+.extra-para {
+  margin: 0 auto 2rem;
+  width: 80%;
+  max-width: 700px;
+}
+
+.help {
+  border: 2px solid red;
 }
